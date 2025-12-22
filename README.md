@@ -10,17 +10,25 @@ Piscine intensive dédiée à l’apprentissage du langage OCaml et de la progra
 
 ## En détails
 
-Parcours pédagogique étalé sur plusieurs semaines, composé de modules successifs couvrant la syntaxe OCaml, la récursion, les fonctions d’ordre supérieur, le pattern matching, les types algébriques, les modules, les foncteurs, la programmation impérative et orientée objet, jusqu’aux monades et monoids. La validation impose rigueur, régularité et compréhension conceptuelle, avec un enchaînement strict des projets et des évaluations quotidiennes. La piscine met l’accent sur la discipline, la précision du raisonnement et l’adoption d’un paradigme fonctionnel exigeant, différent des approches impératives classiques.
+Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, la récursion, les fonctions d’ordre supérieur, le pattern matching, les types algébriques, les modules, les functors, la programmation impérative et orientée objet, jusqu’aux monades et monoids. La validation impose rigueur, régularité et compréhension conceptuelle, avec un enchaînement strict des projets et des évaluations. La piscine met l’accent sur la discipline, la précision du raisonnement et l’adoption d’un paradigme fonctionnel exigeant, différent des approches impératives classiques. Tout ce qu'on aime quoi  
 
-<br>
-
-## Index
-
-- [Sujet](./utils/en.subject.pdf)  
-- [Day 00](./projects/day00/)
+[Voir le sujet officiel de la piscine OCaml](/utils/en.subject.pdf)  
 
 <br>
 
 ## Statut
 
-> En cours de construction
+| Jour | Nom                                            | Exercices obligatoires | Statut    |
+|:----:|------------------------------------------------|:----------------------:|-----------|
+| 0    | [Basic syntax and semantics](/projects/day00/) | 5                      | À push    |
+| 1    | Recursion and higher-order functions           | 5                      | À faire   |
+| 2    | Pattern matching and Data Types                | 5                      | À faire   |
+| 3    | OCaml modules languages                        | 3                      | À faire   |
+| 4    | Imperative features                            | 7                      | À faire   |
+| 5    | Functors                                       | 4                      | À faire   |
+| 6    | OOP-1                                          | 3                      | À faire   |
+| 7    | OOP-2                                          | 5                      | À faire   |
+| 8    | Monoids and monads                             | 4                      | À faire   |
+
+<br>
+

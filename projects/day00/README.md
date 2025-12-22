@@ -1,6 +1,6 @@
 # Jour 1
 
-- [Sujet](./utils/en.subject.pdf)  
+- [Sujet](/utils/subjects/00-basic_syntax_and_semantics.pdf)  
 	- [ex00](./ex00/ft_test_sign.ml)  
 	- [ex01](./ex01/ft_countdown.ml)  
 	- [ex02](./ex02/ft_power.ml)  
