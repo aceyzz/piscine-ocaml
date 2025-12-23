@@ -1,3 +1,15 @@
+(* ************************************************************************** *)
+(*                                                                            *)
+(*                                                        :::      ::::::::   *)
+(*   ft_print_comb.ml                                   :+:      :+:    :+:   *)
+(*                                                    +:+ +:+         +:+     *)
+(*   By: cedmulle <cedmulle@student.42lausanne.ch>  +#+  +:+       +#+        *)
+(*                                                +#+#+#+#+#+   +#+           *)
+(*   Created: 2025/12/23 09:38:30 by cedmulle          #+#    #+#             *)
+(*   Updated: 2025/12/23 09:38:43 by cedmulle         ###   ########.fr       *)
+(*                                                                            *)
+(* ************************************************************************** *)
+
 let ft_print_comb () =
   let print_combo a b c =
     print_int a;
@@ -25,5 +37,5 @@ let ft_print_comb () =
   loop_a 0;
   print_string "\n"
 
-let () =
-  ft_print_comb ()
+(* main de test *)
+let () = ft_print_comb ()

@@ -1,4 +1,4 @@
-# Jour 1
+## Jour 00 - Basic syntax and semantics
 
 - [Sujet](/utils/subjects/00-basic_syntax_and_semantics.pdf)  
 	- [ex00](./ex00/ft_test_sign.ml)  
@@ -7,3 +7,9 @@
 	- [ex03](./ex03/ft_print_alphabet.ml)  
 	- [ex04](./ex04/ft_print_comb.ml)  
 	- [ex05](./ex05/ft_print_rev.ml)  
+
+<br>
+
+## Statut
+
+> En attente d'évaluation
