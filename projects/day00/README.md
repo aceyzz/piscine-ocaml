@@ -12,4 +12,4 @@
 
 ## Statut
 
-> En attente d'évaluation
+<img src="/utils/grades/60.png" alt="Grade" width="150">
