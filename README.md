@@ -20,14 +20,14 @@ Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, 
 
 | Jour | Nom                                                       | Exercices obligatoires | Exercices faits | Statut    |
 |:----:|-----------------------------------------------------------|:----------------------:|:---------------:|-----------|
-| 0    | [Basic syntax and semantics](/projects/day00/)            | 5                      | 6               | Validé    |
-| 1    | [Recursion and higher-order functions](/projects/day01/)  | 5                      | 5               | À push    |
-| 2    | [Pattern matching and Data Types](/projects/day02/)       | 5                      | 5               | À push    |
-| 3    | OCaml modules languages                                   | 3                      | 0               | À faire   |
-| 4    | Imperative features                                       | 7                      | 0               | À faire   |
-| 5    | Functors                                                  | 4                      | 0               | À faire   |
-| 6    | OOP-1                                                     | 3                      | 0               | À faire   |
-| 7    | OOP-2                                                     | 5                      | 0               | À faire   |
-| 8    | Monoids and monads                                        | 4                      | 0               | À faire   |
+| 00   | [Basic syntax and semantics](/projects/day00/)            | 5                      | 6               | Validé    |
+| 01   | [Recursion and higher-order functions](/projects/day01/)  | 5                      | 5               | À push    |
+| 02   | [Pattern matching and Data Types](/projects/day02/)       | 5                      | 5               | À push    |
+| 03   | OCaml modules languages                                   | 3                      | 0               | À faire   |
+| 04   | Imperative features                                       | 7                      | 0               | À faire   |
+| 05   | Functors                                                  | 4                      | 0               | À faire   |
+| 06   | OOP-1                                                     | 3                      | 0               | À faire   |
+| 07   | OOP-2                                                     | 5                      | 0               | À faire   |
+| 08   | Monoids and monads                                        | 4                      | 0               | À faire   |
 
 <br>
