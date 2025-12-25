@@ -18,16 +18,16 @@ Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, 
 
 ## Statut
 
-| Jour | Nom                                                       | Exercices obligatoires | Exercices faits | Statut    |
-|:----:|-----------------------------------------------------------|:----------------------:|:---------------:|-----------|
-| 00   | [Basic syntax and semantics](/projects/day00/)            | 5                      | 6               | Validé    |
-| 01   | [Recursion and higher-order functions](/projects/day01/)  | 5                      | 5               | À push    |
-| 02   | [Pattern matching and Data Types](/projects/day02/)       | 5                      | 5               | À push    |
-| 03   | OCaml modules languages                                   | 3                      | 0               | À faire   |
-| 04   | Imperative features                                       | 7                      | 0               | À faire   |
-| 05   | Functors                                                  | 4                      | 0               | À faire   |
-| 06   | OOP-1                                                     | 3                      | 0               | À faire   |
-| 07   | OOP-2                                                     | 5                      | 0               | À faire   |
-| 08   | Monoids and monads                                        | 4                      | 0               | À faire   |
+| Jour | Nom                                                       | Exercices (mandatory)  | Statut    |
+|:----:|-----------------------------------------------------------|:----------------------:|-----------|
+| 00   | [Basic syntax and semantics](/projects/day00/)            | 6 / 10 (5)             | Validé    |
+| 01   | [Recursion and higher-order functions](/projects/day01/)  | 5 / 10 (5)             | À push    |
+| 02   | [Pattern matching and Data Types](/projects/day02/)       | 5 / 9 (5)              | À push    |
+| 03   | [OCaml modules languages](/projects/day03/)               | 3 / 4 (3)              | À push    |
+| 04   | Imperative features                                       | 0 / 9 (7)              | À faire   |
+| 05   | Functors                                                  | 0 / 5 (4)              | À faire   |
+| 06   | OOP-1                                                     | 0 / 5 (3)              | À faire   |
+| 07   | OOP-2                                                     | 0 / 6 (5)              | À faire   |
+| 08   | Monoids and monads                                        | 0 / 5 (4)              | À faire   |
 
 <br>
