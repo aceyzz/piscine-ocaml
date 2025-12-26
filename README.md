@@ -24,8 +24,8 @@ Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, 
 | 01   | [Recursion and higher-order functions](/projects/day01/)  | 5 / 10 (5)             | À push    |
 | 02   | [Pattern matching and Data Types](/projects/day02/)       | 5 / 9 (5)              | À push    |
 | 03   | [OCaml modules languages](/projects/day03/)               | 3 / 4 (3)              | À push    |
-| 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | À push   |
-| 05   | Functors                                                  | 0 / 5 (4)              | À faire   |
+| 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | À push    |
+| 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | À push    |
 | 06   | OOP-1                                                     | 0 / 5 (3)              | À faire   |
 | 07   | OOP-2                                                     | 0 / 6 (5)              | À faire   |
 | 08   | Monoids and monads                                        | 0 / 5 (4)              | À faire   |
