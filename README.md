@@ -26,7 +26,7 @@ Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, 
 | 03   | [OCaml modules languages](/projects/day03/)               | 3 / 4 (3)              | À push    |
 | 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | À push    |
 | 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | À push    |
-| 06   | OOP-1                                                     | 0 / 5 (3)              | À faire   |
+| 06   | [OOP-1](/projects/day06/)                                 | 3 / 5 (3)              | À push    |
 | 07   | OOP-2                                                     | 0 / 6 (5)              | À faire   |
 | 08   | Monoids and monads                                        | 0 / 5 (4)              | À faire   |
 
