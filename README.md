@@ -11,6 +11,7 @@ Piscine intensive dédiée à l’apprentissage du langage OCaml et de la progra
 ## En détails
 
 Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, la récursion, les fonctions d’ordre supérieur, le pattern matching, les types algébriques, les modules, les functors, la programmation impérative et orientée objet, jusqu’aux monades et monoids. La validation impose rigueur, régularité et compréhension conceptuelle, avec un enchaînement strict des projets et des évaluations. La piscine met l’accent sur la discipline, la précision du raisonnement et l’adoption d’un paradigme fonctionnel exigeant, différent des approches impératives classiques. Tout ce qu'on aime quoi  
+Je vais me contenter de faire seulement les modules mandatory : la programmation fonctionnelle c'est vraiment pas une passion.  
 
 [Voir le sujet officiel de la piscine OCaml](/utils/en.subject.pdf)  
 
@@ -28,6 +29,6 @@ Parcours pédagogique composé de modules successifs couvrant la syntaxe OCaml, 
 | 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | À push    |
 | 06   | [OOP-1](/projects/day06/)                                 | 3 / 5 (3)              | À push    |
 | 07   | [OOP-2](/projects/day07/)                                 | 5 / 6 (5)              | À push    |
-| 08   | Monoids and monads                                        | 0 / 5 (4)              | À faire   |
+| 08   | [Monoids and monads](/projects/day08/)                    | 4 / 5 (4)              | À push    |
 
 <br>
