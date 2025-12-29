@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day04" alt="42_Piscine-OCaml-day04" src="/utils/banners/day04.png" width="100%">
+
+<br>
+
 ## Jour 04 - Imperative Features
 
 - [Sujet](/utils/subjects/04-imperative_features.pdf)  

@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day03" alt="42_Piscine-OCaml-day03" src="/utils/banners/day03.png" width="100%">
+
+<br>
+
 ## Jour 03 - OCaml Modules languages
 
 - [Sujet](/utils/subjects/03-ocaml_modules_language.pdf)  

@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day06" alt="42_Piscine-OCaml-day06" src="/utils/banners/day06.png" width="100%">
+
+<br>
+
 ## Jour 06 - Object Oriented Programming 1
 
 - [Sujet](/utils/subjects/06-oop1.pdf)  

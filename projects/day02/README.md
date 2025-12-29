@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day02" alt="42_Piscine-OCaml-day02" src="/utils/banners/day02.png" width="100%">
+
+<br>
+
 ## Jour 02 - Pattern matching and Data Types
 
 - [Sujet](/utils/subjects/02-pattern_matching_and_data_types.pdf)  

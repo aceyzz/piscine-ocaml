@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day01" alt="42_Piscine-OCaml-day01" src="/utils/banners/day01.png" width="100%">
+
+<br>
+
 ## Jour 01 - Recursion and higher-order functions
 
 - [Sujet](/utils/subjects/01-recursion_and_high_order_functions.pdf)  

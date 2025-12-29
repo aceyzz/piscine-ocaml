@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day05" alt="42_Piscine-OCaml-day05" src="/utils/banners/day05.png" width="100%">
+
+<br>
+
 ## Jour 05 - Functors
 
 - [Sujet](/utils/subjects/05-functors.pdf)  

@@ -1,6 +1,10 @@
-## Jour 07 - Monoids and Monads
+<img title="42_Piscine-OCaml-day08" alt="42_Piscine-OCaml-day08" src="/utils/banners/day08.png" width="100%">
 
-- [Sujet](/utils/subjects/07-oop2.pdf)  
+<br>
+
+## Jour 08 - Monoids and Monads
+
+- [Sujet](/utils/subjects/08-monoids_and_monads.pdf)  
 	- [ex00](./ex00/watchtower.ml)
 	- [ex01](./ex01/app.ml)  
 	- [ex02](./ex02/calc.ml)  

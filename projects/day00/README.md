@@ -1,3 +1,7 @@
+<img title="42_Piscine-OCaml-day00" alt="42_Piscine-OCaml-day00" src="/utils/banners/day00.png" width="100%">
+
+<br>
+
 ## Jour 00 - Basic syntax and semantics
 
 - [Sujet](/utils/subjects/00-basic_syntax_and_semantics.pdf)  
