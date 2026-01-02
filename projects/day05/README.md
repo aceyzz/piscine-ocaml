@@ -5,10 +5,10 @@
 ## Jour 05 - Functors
 
 - [Sujet](/utils/subjects/05-functors.pdf)  
-	- [ex00](./ex00/ex00.ml)  
-	- [ex01](./ex01/ex01.ml)  
-	- [ex02](./ex02/ex02.ml)  
-	- [ex03](./ex03/ex03.ml)  
+	- [ex00 - ex00.ml](./ex00/ex00.ml)  
+	- [ex01 - ex01.ml](./ex01/ex01.ml)  
+	- [ex02 - ex02.ml](./ex02/ex02.ml)  
+	- [ex03 - ex03.ml](./ex03/ex03.ml)  
 <br>
 
 ## Statut

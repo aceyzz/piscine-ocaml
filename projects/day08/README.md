@@ -5,10 +5,10 @@
 ## Jour 08 - Monoids and Monads
 
 - [Sujet](/utils/subjects/08-monoids_and_monads.pdf)  
-	- [ex00](./ex00/watchtower.ml)
-	- [ex01](./ex01/app.ml)  
-	- [ex02](./ex02/calc.ml)  
-	- [ex03](./ex03/try.ml)  
+	- [ex00 - watchtower](./ex00/watchtower.ml)
+	- [ex01 - app](./ex01/app.ml)  
+	- [ex02 - calc](./ex02/calc.ml)  
+	- [ex03 - try](./ex03/try.ml)  
 
 <br>
 

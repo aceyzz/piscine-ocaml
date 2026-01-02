@@ -5,10 +5,10 @@
 ## Jour 07 - Object Oriented Programming 2
 
 - [Sujet](/utils/subjects/07-oop2.pdf)  
-	- [ex00](./ex00/atom.ml)  
-	- [ex01](./ex01/molecule.ml)  
-	- [ex02](./ex02/alkane.ml)  
-	- [ex03](./ex03/alkane_combustion.ml)  
+	- [ex00 - atom](./ex00/atom.ml)  
+	- [ex01 - molecule](./ex01/molecule.ml)  
+	- [ex02 - alkane](./ex02/alkane.ml)  
+	- [ex03 - alkane_combustion](./ex03/alkane_combustion.ml)  
 
 <br>
 

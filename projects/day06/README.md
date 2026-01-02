@@ -5,9 +5,9 @@
 ## Jour 06 - Object Oriented Programming 1
 
 - [Sujet](/utils/subjects/06-oop1.pdf)  
-	- [ex00](./ex00/people.ml)  
-	- [ex01](./ex01/doctor.ml)  
-	- [ex02](./ex02/dalek.ml)  
+	- [ex00 - people](./ex00/people.ml)  
+	- [ex01 - doctor](./ex01/doctor.ml)  
+	- [ex02 - dalek](./ex02/dalek.ml)  
 
 <br>
 
