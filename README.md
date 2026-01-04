@@ -19,16 +19,16 @@ Je vais me contenter de faire seulement les modules mandatory : la programmation
 
 ## Statut
 
-| Jour | Nom                                                       | Exercices (mandatory)  | Statut    | Note        | XP            |
-|:----:|-----------------------------------------------------------|:----------------------:|-----------|:-----------:|--------------:|
-| 00   | [Basic syntax and semantics](/projects/day00/)            | 6 / 10 (5)             | Validé    | **60/100**  | 0	          |
-| 01   | [Recursion and higher-order functions](/projects/day01/)  | 5 / 10 (5)             | Validé    | **50/100**  | 0	          |
-| 02   | [Pattern matching and Data Types](/projects/day02/)       | 5 / 9 (5)              | Validé    | **50/100**  | ~~1'500~~ 750 |
-| 03   | [OCaml modules languages](/projects/day03/)               | 3 / 4 (3)              | Validé    | **70/100**  | 0	          |
-| 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | Validé    | **70/100**  | 0	          |
-| 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | À push    |             | 2'250         |
-| 06   | [OOP-1](/projects/day06/)                                 | 3 / 5 (3)              | À push    |             | 0	          |
-| 07   | [OOP-2](/projects/day07/)                                 | 5 / 6 (5)              | À push    |             | 2'225         |
-| 08   | [Monoids and monads](/projects/day08/)                    | 4 / 5 (4)              | À push    |             | 3'475         |
+| Jour | Nom                                                       | Exercices (mandatory)  | Statut    | Note        | XP              |
+|:----:|-----------------------------------------------------------|:----------------------:|-----------|:-----------:|----------------:|
+| 00   | [Basic syntax and semantics](/projects/day00/)            | 6 / 10 (5)             | Validé    | **60/100**  | 0	            |
+| 01   | [Recursion and higher-order functions](/projects/day01/)  | 5 / 10 (5)             | Validé    | **50/100**  | 0	            |
+| 02   | [Pattern matching and Data Types](/projects/day02/)       | 5 / 9 (5)              | Validé    | **50/100**  | ~~1'500~~ 750   |
+| 03   | [OCaml modules languages](/projects/day03/)               | 3 / 4 (3)              | Validé    | **70/100**  | 0	            |
+| 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | Validé    | **70/100**  | 0	            |
+| 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | À push    | **80/100**  | ~~2'250~~ 1'800 |
+| 06   | [OOP-1](/projects/day06/)                                 | 3 / 5 (3)              | À push    |             | 0	            |
+| 07   | [OOP-2](/projects/day07/)                                 | 5 / 6 (5)              | À push    |             | 2'225           |
+| 08   | [Monoids and monads](/projects/day08/)                    | 4 / 5 (4)              | À push    |             | 3'475           |
 
 <br>
