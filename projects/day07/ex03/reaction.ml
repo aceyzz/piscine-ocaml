@@ -6,12 +6,47 @@
 (*   By: cedmulle <cedmulle@student.42lausanne.ch>  +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2025/12/27 10:20:00 by cedmulle          #+#    #+#             *)
-(*   Updated: 2025/12/27 10:54:23 by cedmulle         ###   ########.fr       *)
+(*   Updated: 2026/01/10 16:21:27 by cedmulle         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
 class virtual reaction (start_molecules : (Molecule.molecule * int) list) (result_molecules : (Molecule.molecule * int) list) =
 object (self)
+  method virtual get_start : (Molecule.molecule * int) list
+  method virtual get_result : (Molecule.molecule * int) list
+  method virtual is_balanced : bool
+  method virtual balance : reaction
+  
+  method equals (other : reaction) =
+    let compare_sides side1 side2 =
+      let sorted1 = List.sort (fun (m1, _) (m2, _) -> compare m1#name m2#name) side1 in
+      let sorted2 = List.sort (fun (m1, _) (m2, _) -> compare m1#name m2#name) side2 in
+      let rec check = function
+        | [], [] -> true
+        | (mol1, cnt1) :: rest1, (mol2, cnt2) :: rest2 ->
+            mol1#equals mol2 && cnt1 = cnt2 && check (rest1, rest2)
+        | _ -> false
+      in
+      check (sorted1, sorted2)
+    in
+    compare_sides (self#get_start) other#get_start && compare_sides (self#get_result) other#get_result
+  
+  method to_string =
+    let format_side molecules =
+      let parts = List.map (fun (mol, count) ->
+        if count = 1 then mol#formula
+        else string_of_int count ^ " " ^ mol#formula
+      ) molecules in
+      String.concat " + " parts
+    in
+    format_side (self#get_start) ^ " -> " ^ format_side (self#get_result)
+end
+
+(* implémentation d'avant *)
+class simple_reaction (start_molecules : (Molecule.molecule * int) list) (result_molecules : (Molecule.molecule * int) list) =
+object (self)
+  inherit reaction start_molecules result_molecules
+  
   method get_start = start_molecules
   method get_result = result_molecules
   
@@ -38,29 +73,5 @@ object (self)
     in
     count_atoms start_molecules = count_atoms result_molecules
   
-  method virtual balance : reaction
-  
-  method equals (other : reaction) =
-    let compare_sides side1 side2 =
-      let sorted1 = List.sort (fun (m1, _) (m2, _) -> compare m1#name m2#name) side1 in
-      let sorted2 = List.sort (fun (m1, _) (m2, _) -> compare m1#name m2#name) side2 in
-      let rec check = function
-        | [], [] -> true
-        | (mol1, cnt1) :: rest1, (mol2, cnt2) :: rest2 ->
-            mol1#equals mol2 && cnt1 = cnt2 && check (rest1, rest2)
-        | _ -> false
-      in
-      check (sorted1, sorted2)
-    in
-    compare_sides start_molecules other#get_start && compare_sides result_molecules other#get_result
-  
-  method to_string =
-    let format_side molecules =
-      let parts = List.map (fun (mol, count) ->
-        if count = 1 then mol#formula
-        else string_of_int count ^ " " ^ mol#formula
-      ) molecules in
-      String.concat " + " parts
-    in
-    format_side start_molecules ^ " -> " ^ format_side result_molecules
+  method balance = (self :> reaction)
 end

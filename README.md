@@ -28,7 +28,7 @@ Je vais me contenter de faire seulement les modules mandatory : la programmation
 | 04   | [Imperative features](/projects/day04/)                   | 7 / 9 (7)              | Validé    | **70/100**  | 0	            |
 | 05   | [Functors](/projects/day05/)                              | 4 / 5 (4)              | Validé    | **80/100**  | ~~2'250~~ 1'800 |
 | 06   | [OOP-1](/projects/day06/)                                 | 3 / 5 (3)              | Validé    | **50/100**  | 0	            |
-| 07   | [OOP-2](/projects/day07/)                                 | 5 / 6 (5)              | À push    |             | 2'225           |
+| 07   | [OOP-2](/projects/day07/)                                 | 5 / 6 (5)              | À push    | **80/100**  | ~~2'225~~ 1'780 |
 | 08   | [Monoids and monads](/projects/day08/)                    | 4 / 5 (4)              | À push    |             | 3'475           |
 
 <br>

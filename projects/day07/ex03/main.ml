@@ -6,7 +6,7 @@
 (*   By: cedmulle <cedmulle@student.42lausanne.ch>  +#+  +:+       +#+        *)
 (*                                                +#+#+#+#+#+   +#+           *)
 (*   Created: 2025/12/27 09:47:24 by cedmulle          #+#    #+#             *)
-(*   Updated: 2025/12/27 10:54:22 by cedmulle         ###   ########.fr       *)
+(*   Updated: 2026/01/10 16:02:49 by cedmulle         ###   ########.fr       *)
 (*                                                                            *)
 (* ************************************************************************** *)
 
@@ -18,25 +18,10 @@ let () =
   let methane = new Alkane.methane in
   let co2 = new Molecule.carbon_dioxide in
   
-  let combustion_methane = object (self)
-    inherit Reaction.reaction [(methane, 1); (o2, 2)] [(co2, 1); (water, 2)]
-    method balance = (self :> Reaction.reaction)
-  end in
-  
-  let water_formation = object (self)
-    inherit Reaction.reaction [(h2, 2); (o2, 1)] [(water, 2)]
-    method balance = (self :> Reaction.reaction)
-  end in
-  
-  let unbalanced_reaction = object (self)
-    inherit Reaction.reaction [(h2, 1); (o2, 1)] [(water, 1)]
-    method balance = (self :> Reaction.reaction)
-  end in
-  
-  let combustion_methane2 = object (self)
-    inherit Reaction.reaction [(methane, 1); (o2, 2)] [(co2, 1); (water, 2)]
-    method balance = (self :> Reaction.reaction)
-  end in
+  let combustion_methane = new Reaction.simple_reaction [(methane, 1); (o2, 2)] [(co2, 1); (water, 2)] in
+  let water_formation = new Reaction.simple_reaction [(h2, 2); (o2, 1)] [(water, 2)] in
+  let unbalanced_reaction = new Reaction.simple_reaction [(h2, 1); (o2, 1)] [(water, 1)] in
+  let combustion_methane2 = new Reaction.simple_reaction [(methane, 1); (o2, 2)] [(co2, 1); (water, 2)] in
   
   print_endline "## Test 'to_string'";
   print_endline ("  [combustion_methane] " ^ combustion_methane#to_string);
